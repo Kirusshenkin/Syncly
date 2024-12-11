@@ -1,0 +1,15 @@
+app:
+  name: "syncly"
+  port: 8080
+
+database:
+  dsn: "postgres://localhost:5432/syncly?user=postgres&password=postgres"
+  max_open_connections: 10
+
+redis:
+  host: "localhost"
+  port: 6379
+
+jwt:
+  secret: "your-secret-key"
+  expire_hours: 24
